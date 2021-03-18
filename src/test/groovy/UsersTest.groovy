@@ -92,7 +92,7 @@ class UsersTest extends Specification {
 
     def "should return 404 for single users not found"() {
         when:
-        def response = client.get(path:"/api/users/23")
+        client.get(path:"/api/users/23")
 
         then:"server return 404 response"
         def result = thrown(HttpResponseException)

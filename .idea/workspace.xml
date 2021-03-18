@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2138c16f-69f0-44ca-825d-dafcfa67fb79" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/groovy/ResourcesTest.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/groovy/ResourcesTest.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/groovy/ResourcesTest.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/groovy/UsersTest.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/groovy/UsersTest.groovy" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -56,10 +56,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/groovy/UsersTest.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+            <state relative-caret-position="255">
+              <caret line="103" column="1" lean-forward="true" selection-start-line="103" selection-start-column="1" selection-end-line="103" selection-end-column="1" />
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
+                <element signature="n#!!block;n#should return 200 for list of users#0;n#!!block;n#SampleTest#0" />
+                <element signature="n#!!block;n#should return 200 for single user#0;n#!!block;n#UsersTest#0" />
+                <element signature="n#!!block;n#should return 404 for single users not found#0;n#!!block;n#UsersTest#0" />
               </folding>
             </state>
           </provider>
@@ -68,8 +71,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/groovy/ResourcesTest.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="63" column="9" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
+            <state relative-caret-position="84">
+              <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
               </folding>
@@ -155,7 +158,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ResourcesTest.should return 200 for list of resource  (4)">
+  <component name="RunManager" selected="JUnit.UsersTest">
     <configuration name="ResourcesTest.should return 200 for list of resource  (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spock-groovy-apitest-freamwork.test" />
       <option name="PACKAGE_NAME" value="" />
@@ -186,21 +189,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ResourcesTest.should return 200 for list of resource  (4)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ResourcesTest.should return 200 for single resourcesss" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spock-groovy-apitest-freamwork.test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ResourcesTest" />
-      <option name="METHOD_NAME" value="should return 200 for list of resource " />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ResourcesTest.should return 200 for list of resource " type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spock-groovy-apitest-freamwork.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ResourcesTest" />
-      <option name="METHOD_NAME" value="should return 200 for list of resource " />
+      <option name="METHOD_NAME" value="should return 200 for single resourcesss" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -215,13 +208,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UsersTest.should return 200 for list of users" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spock-groovy-apitest-freamwork.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UsersTest" />
+      <option name="METHOD_NAME" value="should return 200 for list of users" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ResourcesTest.should return 200 for list of resource  (4)" />
-        <item itemvalue="JUnit.ResourcesTest.should return 200 for list of resource  (2)" />
-        <item itemvalue="JUnit.ResourcesTest.should return 200 for list of resource  (1)" />
-        <item itemvalue="JUnit.ResourcesTest.should return 200 for list of resource " />
         <item itemvalue="JUnit.UsersTest" />
+        <item itemvalue="JUnit.UsersTest.should return 200 for list of users" />
+        <item itemvalue="JUnit.ResourcesTest.should return 200 for list of resource  (2)" />
+        <item itemvalue="JUnit.ResourcesTest.should return 200 for single resourcesss" />
+        <item itemvalue="JUnit.ResourcesTest.should return 200 for list of resource  (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -239,21 +242,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UsersTest - 2021.03.19 at 00h 17m 13s.xml">
-      <configuration name="UsersTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UsersTest - 2021.03.19 at 00h 21m 43s.xml">
-      <configuration name="UsersTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UsersTest - 2021.03.19 at 00h 23m 04s.xml">
-      <configuration name="UsersTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UsersTest - 2021.03.19 at 00h 23m 59s.xml">
-      <configuration name="UsersTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UsersTest - 2021.03.19 at 00h 24m 33s.xml">
-      <configuration name="UsersTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="UsersTest - 2021.03.19 at 00h 29m 50s.xml">
       <configuration name="UsersTest" configurationId="JUnit" />
     </history-entry>
@@ -269,12 +257,27 @@
     <history-entry file="ResourcesTest_should_return_200_for_list_of_resource__(3) - 2021.03.19 at 00h 52m 05s.xml">
       <configuration name="ResourcesTest.should return 200 for list of resource  (3)" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ResourcesTest_should_return_200_for_list_of_resource__(4) - 2021.03.19 at 00h 57m 55s.xml">
+      <configuration name="ResourcesTest.should return 200 for list of resource  (4)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ResourcesTest_should_return_200_for_single_resource - 2021.03.19 at 01h 01m 28s.xml">
+      <configuration name="ResourcesTest.should return 200 for single resource" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ResourcesTest_should_return_200_for_list_of_resource_ - 2021.03.19 at 01h 02m 13s.xml">
+      <configuration name="ResourcesTest.should return 200 for list of resource " configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UsersTest - 2021.03.19 at 01h 04m 41s.xml">
+      <configuration name="UsersTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UsersTest - 2021.03.19 at 01h 04m 48s.xml">
+      <configuration name="UsersTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-44" y="34" width="1394" height="875" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1841716" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1841716" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -284,7 +287,7 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37194338" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.37194338" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -314,18 +317,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/groovy/UsersTest.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+        <state relative-caret-position="255">
+          <caret line="103" column="1" lean-forward="true" selection-start-line="103" selection-start-column="1" selection-end-line="103" selection-end-column="1" />
           <folding>
             <element signature="e#0#45#0" expanded="true" />
+            <element signature="n#!!block;n#should return 200 for list of users#0;n#!!block;n#SampleTest#0" />
+            <element signature="n#!!block;n#should return 200 for single user#0;n#!!block;n#UsersTest#0" />
+            <element signature="n#!!block;n#should return 404 for single users not found#0;n#!!block;n#UsersTest#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/groovy/ResourcesTest.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="63" column="9" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
+        <state relative-caret-position="84">
+          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
           <folding>
             <element signature="e#0#34#0" expanded="true" />
           </folding>
