@@ -2,20 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2138c16f-69f0-44ca-825d-dafcfa67fb79" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/groovy/test/SampleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/groovy/test/SampleTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/SampleTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/SampleTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-SampleTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-SampleTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/SampleTest.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/groovy/SampleTest.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/SampleTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/groovy/UsersTest.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/groovy/UsersTest.groovy" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -66,12 +56,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/groovy/SampleTest.groovy">
+        <entry file="file://$PROJECT_DIR$/src/test/groovy/UsersTest.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+            <state relative-caret-position="301">
+              <caret line="97" column="50" lean-forward="true" selection-start-line="97" selection-start-column="50" selection-end-line="97" selection-end-column="50" />
               <folding>
-                <element signature="e#0#34#0" expanded="true" />
+                <element signature="e#0#45#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -87,14 +77,14 @@
       <list>
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/groovy/SampleTest.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/UsersTest.groovy" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="9" />
-    <option name="y" value="43" />
-    <option name="width" value="1377" />
-    <option name="height" value="839" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="25" />
+    <option name="width" value="1394" />
+    <option name="height" value="875" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -119,6 +109,13 @@
               <item name="spock-groovy-apitest-framework" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="spock-groovy-apitest-freamwork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spock-groovy-apitest-framework" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="groovy" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -146,7 +143,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SampleTest">
+  <component name="RunManager">
     <configuration name="SampleTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -207,10 +204,10 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UsersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spock-groovy-apitest-freamwork.test" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SampleTest" />
+      <option name="MAIN_CLASS_NAME" value="UsersTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -218,7 +215,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SampleTest" />
+        <item itemvalue="JUnit.UsersTest" />
         <item itemvalue="Gradle.SampleTest.should return 200 for list of users" />
         <item itemvalue="Gradle.SampleTest" />
         <item itemvalue="Gradle.SampleTest.this is a sample spock test" />
@@ -239,39 +236,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SampleTest_should_return_200_for_list_of_users - 2021.03.18 at 23h 22m 10s.xml">
-      <configuration name="SampleTest.should return 200 for list of users" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="SampleTest_should_return_200_for_list_of_users - 2021.03.18 at 23h 22m 34s.xml">
-      <configuration name="SampleTest.should return 200 for list of users" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="SampleTest_should_return_200_for_list_of_users - 2021.03.18 at 23h 23m 34s.xml">
-      <configuration name="SampleTest.should return 200 for list of users" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="SampleTest_should_return_200_for_list_of_users - 2021.03.18 at 23h 23m 58s.xml">
-      <configuration name="SampleTest.should return 200 for list of users" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="SampleTest - 2021.03.18 at 23h 55m 44s.xml">
-      <configuration name="SampleTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SampleTest - 2021.03.18 at 23h 59m 51s.xml">
-      <configuration name="SampleTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SampleTest - 2021.03.19 at 00h 00m 20s.xml">
-      <configuration name="SampleTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SampleTest - 2021.03.19 at 00h 00m 51s.xml">
-      <configuration name="SampleTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SampleTest - 2021.03.19 at 00h 02m 46s.xml">
       <configuration name="SampleTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="SampleTest - 2021.03.19 at 00h 03m 19s.xml">
       <configuration name="SampleTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UsersTest - 2021.03.19 at 00h 16m 42s.xml">
+      <configuration name="UsersTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UsersTest - 2021.03.19 at 00h 17m 13s.xml">
+      <configuration name="UsersTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UsersTest - 2021.03.19 at 00h 21m 43s.xml">
+      <configuration name="UsersTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UsersTest - 2021.03.19 at 00h 23m 04s.xml">
+      <configuration name="UsersTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UsersTest - 2021.03.19 at 00h 23m 59s.xml">
+      <configuration name="UsersTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UsersTest - 2021.03.19 at 00h 24m 33s.xml">
+      <configuration name="UsersTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UsersTest - 2021.03.19 at 00h 29m 50s.xml">
+      <configuration name="UsersTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UsersTest - 2021.03.19 at 00h 32m 01s.xml">
+      <configuration name="UsersTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1394" height="875" extended-state="6" />
+    <frame x="0" y="25" width="1394" height="875" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13535503" />
@@ -284,7 +281,7 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28314027" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37194338" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -312,12 +309,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/SampleTest.groovy">
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/UsersTest.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+        <state relative-caret-position="301">
+          <caret line="97" column="50" lean-forward="true" selection-start-line="97" selection-start-column="50" selection-end-line="97" selection-end-column="50" />
           <folding>
-            <element signature="e#0#34#0" expanded="true" />
+            <element signature="e#0#45#0" expanded="true" />
           </folding>
         </state>
       </provider>

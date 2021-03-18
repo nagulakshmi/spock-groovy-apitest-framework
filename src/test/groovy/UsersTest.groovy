@@ -1,3 +1,4 @@
+import groovyx.net.http.HttpResponseException
 import groovyx.net.http.RESTClient
 import net.sf.json.JSONObject
 import spock.lang.Shared
@@ -68,4 +69,36 @@ class UsersTest extends Specification {
 
         ]
     }
+
+    def "should return 200 for single user"() {
+        when:
+        def response = client.get(path:"/api/users/2")
+
+        then:"server return 200 response"
+        response.status == 200
+
+        then:"verify the response attributes"
+        response.data.data.equals(
+                new JSONObject(
+                        "id": 2,
+                        "email": "janet.weaver@reqres.in",
+                        "first_name": "Janet",
+                        "last_name": "Weaver",
+                        "avatar": "https://reqres.in/img/faces/2-image.jpg"
+                )
+        )
+
+    }
+
+    def "should return 404 for single users not found"() {
+        when:
+        def response = client.get(path:"/api/users/23")
+
+        then:"server return 404 response"
+        def result = thrown(HttpResponseException)
+
+        then:"server return 404 response"
+        result.statusCode == 404
+    }
+
 }
