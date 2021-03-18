@@ -3,7 +3,7 @@ import net.sf.json.JSONObject
 import spock.lang.Shared
 import spock.lang.Specification
 
-class SampleTest extends Specification {
+class UsersTest extends Specification {
 
     @Shared
     def client = new RESTClient("https://reqres.in/")
