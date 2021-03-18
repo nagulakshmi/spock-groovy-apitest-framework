@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2138c16f-69f0-44ca-825d-dafcfa67fb79" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/groovy/ResourcesTest.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/SampleTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/UsersTest.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/groovy/UsersTest.groovy" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -55,13 +53,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/groovy/UsersTest.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="97" column="50" lean-forward="true" selection-start-line="97" selection-start-column="50" selection-end-line="97" selection-end-column="50" />
+            <state relative-caret-position="54">
+              <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/groovy/ResourcesTest.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="411">
+              <caret line="63" column="9" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#34#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -78,11 +88,13 @@
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/groovy/SampleTest.groovy" />
         <option value="$PROJECT_DIR$/src/test/groovy/UsersTest.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/ResourcesTest.groovy" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="25" />
+    <option name="x" value="-44" />
+    <option name="y" value="34" />
     <option name="width" value="1394" />
     <option name="height" value="875" />
   </component>
@@ -143,66 +155,56 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="SampleTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;SampleTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
+  <component name="RunManager" selected="JUnit.ResourcesTest.should return 200 for list of resource  (4)">
+    <configuration name="ResourcesTest.should return 200 for list of resource  (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spock-groovy-apitest-freamwork.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ResourcesTest" />
+      <option name="METHOD_NAME" value="should return 200 for list of resource " />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="SampleTest.should return 200 for list of users" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;SampleTest.should return 200 for list of users&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
+    <configuration name="ResourcesTest.should return 200 for list of resource  (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spock-groovy-apitest-freamwork.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ResourcesTest" />
+      <option name="METHOD_NAME" value="should return 200 for list of resource " />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="SampleTest.this is a sample spock test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;SampleTest.this is a sample spock test&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
+    <configuration name="ResourcesTest.should return 200 for list of resource  (3)" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="spock-groovy-apitest-freamwork.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ResourcesTest" />
+      <option name="METHOD_NAME" value="should return 200 for list of resource " />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ResourcesTest.should return 200 for list of resource  (4)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spock-groovy-apitest-freamwork.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ResourcesTest" />
+      <option name="METHOD_NAME" value="should return 200 for list of resource " />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ResourcesTest.should return 200 for list of resource " type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spock-groovy-apitest-freamwork.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ResourcesTest" />
+      <option name="METHOD_NAME" value="should return 200 for list of resource " />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="UsersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spock-groovy-apitest-freamwork.test" />
@@ -215,10 +217,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ResourcesTest.should return 200 for list of resource  (4)" />
+        <item itemvalue="JUnit.ResourcesTest.should return 200 for list of resource  (2)" />
+        <item itemvalue="JUnit.ResourcesTest.should return 200 for list of resource  (1)" />
+        <item itemvalue="JUnit.ResourcesTest.should return 200 for list of resource " />
         <item itemvalue="JUnit.UsersTest" />
-        <item itemvalue="Gradle.SampleTest.should return 200 for list of users" />
-        <item itemvalue="Gradle.SampleTest" />
-        <item itemvalue="Gradle.SampleTest.this is a sample spock test" />
       </list>
     </recent_temporary>
   </component>
@@ -236,15 +239,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SampleTest - 2021.03.19 at 00h 02m 46s.xml">
-      <configuration name="SampleTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SampleTest - 2021.03.19 at 00h 03m 19s.xml">
-      <configuration name="SampleTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UsersTest - 2021.03.19 at 00h 16m 42s.xml">
-      <configuration name="UsersTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="UsersTest - 2021.03.19 at 00h 17m 13s.xml">
       <configuration name="UsersTest" configurationId="JUnit" />
     </history-entry>
@@ -266,12 +260,21 @@
     <history-entry file="UsersTest - 2021.03.19 at 00h 32m 01s.xml">
       <configuration name="UsersTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UsersTest - 2021.03.19 at 00h 32m 55s.xml">
+      <configuration name="UsersTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ResourcesTest_should_return_200_for_list_of_resource_ - 2021.03.19 at 00h 48m 37s.xml">
+      <configuration name="ResourcesTest.should return 200 for list of resource " configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ResourcesTest_should_return_200_for_list_of_resource__(3) - 2021.03.19 at 00h 52m 05s.xml">
+      <configuration name="ResourcesTest.should return 200 for list of resource  (3)" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1394" height="875" extended-state="0" />
+    <frame x="-44" y="34" width="1394" height="875" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13535503" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1841716" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -311,10 +314,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/groovy/UsersTest.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="97" column="50" lean-forward="true" selection-start-line="97" selection-start-column="50" selection-end-line="97" selection-end-column="50" />
+        <state relative-caret-position="54">
+          <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
           <folding>
             <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/ResourcesTest.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="63" column="9" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
           </folding>
         </state>
       </provider>
